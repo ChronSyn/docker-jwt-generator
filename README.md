@@ -20,7 +20,7 @@ The original use-case for this library was for automating deployment of the Supa
 
 ### Usage example (via Docker)
 
-`docker run --rm chronsyn/docker-jwt-generator -e --role="anon" --secret="a-very-long-strong-that-is-at-least-thirty-two-characters-in-length" --issuer="supabase"`
+`docker run --rm ghcr.io/chronsyn/docker-jwt-generator:master -e --role="anon" --secret="a-very-long-strong-that-is-at-least-thirty-two-characters-in-length" --issuer="supabase"`
 
 This will:
 
