@@ -1,0 +1,15 @@
+{
+  "name": "docker-jwt-generator",
+  "version": "0.0.1",
+  "description": "Generates a JWT token and outputs to STDOUT. Useful for automated systems.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "yargs": "^17.3.1"
+  }
+}
